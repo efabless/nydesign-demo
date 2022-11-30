@@ -8,11 +8,7 @@
 This repository provides simple demonstration project template for getting starting with Efabless chipIgnite for the NYDesign Program.
 
 - To use this template, make sure you have a github account and are logged in.
-- Click on the 'Use this template' button in the upper right and provide a name for your project
-
-   *   Follow https://github.com/efabless/caravel_user_project/generate to create a new repository.
-   *   Clone the reposity using the following command:
-   
+- Follow https://github.com/efabless/nydesign-demo/generate to create a new repo and provide a name for your project 
    
 git clone <your github repo URL>
 	
