@@ -61,15 +61,15 @@ module user_project_wrapper #(
     input  [127:0] la_oenb,
 
     // IOs
-    input  [`MPRJ_IO_PADS-1:0] io_in,
-    output [`MPRJ_IO_PADS-1:0] io_out,
-    output [`MPRJ_IO_PADS-1:0] io_oeb,
+    input  [37:0] io_in,
+    output [37:0] io_out,
+    output [37:0] io_oeb,
 
     // Analog (direct connection to GPIO pad---use with caution)
     // Note that analog I/O is not available on the 7 lowest-numbered
     // GPIO pads, and so the analog_io indexing is offset from the
     // GPIO indexing by 7 (also upper 2 GPIOs do not have analog_io).
-    inout [`MPRJ_IO_PADS-10:0] analog_io,
+    inout [37-10:0] analog_io,
 
     // Independent clock (on independent integer divider)
     input   user_clock2,
