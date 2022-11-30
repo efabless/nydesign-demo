@@ -11,16 +11,16 @@ This repository provides simple demonstration project template for getting start
    
 2. Clone your project and run setup...
 
-`git clone <your github repo URL>`
+	git clone <your github repo URL>
   
-	`cd <project_name>` # project_name is the name of your repo
+	cd <project_name> # project_name is the name of your repo
 
-	`mkdir dependencies`
+	mkdir dependencies
 
-	`export OPENLANE_ROOT=$(pwd)/dependencies/openlane_src` # you need to export this whenever you start a new shell
+	export OPENLANE_ROOT=$(pwd)/dependencies/openlane_src # you need to export this whenever you start a new shell
 
-	`export PDK_ROOT=$(pwd)/dependencies/pdks` # you need to export this whenever you start a new shell
+	export PDK_ROOT=$(pwd)/dependencies/pdks # you need to export this whenever you start a new shell
 
-	`export PDK=sky130A`
+	export PDK=sky130A
 
-	`make setup`
+	make setup
