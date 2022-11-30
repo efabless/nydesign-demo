@@ -23,4 +23,4 @@ This repository provides simple demonstration project template for getting start
 
 	export PDK=sky130A
 
-	make setup
+	make setup`
