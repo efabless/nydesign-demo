@@ -11,7 +11,7 @@ This repository provides simple demonstration project template for getting start
    
 2. Clone your project and run setup...
 
-	git clone <your github repo URL>
+	`git clone <your github repo URL>
   
 	cd <project_name> # project_name is the name of your repo
 
