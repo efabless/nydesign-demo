@@ -13,7 +13,7 @@ This repository provides simple demonstration project template for getting start
 
 	`git clone <your github repo URL>`
   
-	`cd <project_name> # project_name is the name of your repo`
+	`cd <project_name>` # project_name is the name of your repo
 
 	`mkdir dependencies`
 
